@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quem</title>
+    <link rel="stylesheet" href="jan.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png">
+        <p>Consultoria de Agricultura Familiar Brasil</p>
+        <a href="index.html">Home</a>
+        <a href="quem.html">Quem Somos?</a>
+        <a href="caso.html">Caso</a>
+        <a href="equipe.html">Equipe</a>
+    </header>
+    <main>
+        <div class="sidebar">
+            
+            <a href="#">&#128508 EM ALTA</a>
+            <a href="#">&#128226 NOVIDADES</a>
+            <a href="#">&#127775 FAVORITOS</a>
+            <a href="#">&#x1f91d PARCERIAS</a>
+            <a href="#">&#x1f464 PERFIL</a>
+            <a href="#">&#x1f527 CONFIGURAÇÕES</a>
+        </div>
+        <div class="section">
+            <p class="highlight-text">A sua Consultoria Agro</p>
+            <div class="carrossel">
+                <div class="container" id="qimg">
+                    <img src="fam.jpeg" alt="">
+                    <img src="reg.jpg" alt="">
+                    <img src="faz.jpg" alt="">
+                    <img src="help.jpg" alt="">
+                </div>
+            </div>
+            <p class="minum-text">Somos uma consultoria agropecuária fictícia criada pelos alunos do terceiro ano do ensino médio para realização de uma atividade expositiva. Temos por objetivo auxiliar produtores rurais, principalmente os familiares, na gestão dos seus sistemas produtivos.</p>
+            <p class="minum-text">Nossos serviços abrangem finanças, recursos humanos, estudo mercadológico, bem-estar animal, plantio, colheita, práticas de manejo, pragas e doenças.</p>
+
+        </div>
+    </main>
+    <script>
+        const imgs = document.getElementById("qimg");
+        const img = document.querySelectorAll("#qimg img")
+        let idx = 0;
+        function carrossel(){
+            idx++;
+            if(idx>img.length - 1){
+                idx = 0;
+            }
+
+            imgs.style.transform = `translateX(${-idx * 500}px)`;  
+
+        }
+        setInterval(carrossel, 3000);
+    </script>
+</body>
+</html>
