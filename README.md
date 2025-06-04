@@ -26,7 +26,7 @@ Apesar de servir apenas como base de uma apresentação escolar, este projeto re
 - [MIT](https://choosealicense.com/licenses/mit/)
 
 ## 👤 Sobre mim
-- 👤 Guilherme Shimada Pereira ([guilhermexmada]())
+- 👤 Guilherme Shimada Pereira ([guilhermexmada](https://github.com/guilhermexmada))
 - 🎓 Técnico em Desenvolvimento de Sistemas (2024)
 - 🎓 Cursando Desenvolvimento de Software Multiplataforma (até 2027!) 
 - 🚀 Rumo à Cibersegurança!
